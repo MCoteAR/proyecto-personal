@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Ropa</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Mi Tienda de Ropa</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Hombres</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Mujeres</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Niños</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Products Section -->
+  <div class="container my-5">
+    <h2 class="text-center mb-4">Nuestros Productos</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <!-- Product Card -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Camiseta Básica">
+          <div class="card-body">
+            <h5 class="card-title">Camiseta Básica</h5>
+            <p class="card-text">Una camiseta cómoda y elegante para el día a día.</p>
+            <p class="fw-bold text-primary">$10.000</p>
+            <a href="#" class="btn btn-primary w-100">Agregar al Carrito</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Card -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Pantalones Denim">
+          <div class="card-body">
+            <h5 class="card-title">Pantalones Denim</h5>
+            <p class="card-text">Pantalones de mezclilla clásicos, ideales para cualquier ocasión.</p>
+            <p class="fw-bold text-primary">$25.000</p>
+            <a href="#" class="btn btn-primary w-100">Agregar al Carrito</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Card -->
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Vestido Floral">
+          <div class="card-body">
+            <h5 class="card-title">Vestido Floral</h5>
+            <p class="card-text">Vestido fresco con diseño floral, perfecto para el verano.</p>
+            <p class="fw-bold text-primary">$30.000</p>
+            <a href="#" class="btn btn-primary w-100">Agregar al Carrito</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 Mi Tienda de Ropa. Todos los derechos reservados.</p>
+   
+      <div class="sidebar-icons">
+        <a href="https://wa.me/+56999998991" target="_blank" class="whatsapp">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span class="tooltip">Contactar por WhatsApp</span>
+      </a>
+      
+        <a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+
+    <!-- Bootstrap JS (opcional si se necesita interactividad como dropdowns) -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
